@@ -1,0 +1,282 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.product-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.card-product {
+  width: 250px;
+  max-width: 300px;
+  height: 409px;
+  max-height: 409px;
+}
+
+.card-product .card-img-top {
+  height: 200px;
+  max-height: 190px;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+#wrap-text {
+  white-space: pre-line;
+}
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+.img-single-product {
+  max-width: 50%;
+  margin: 20px auto;
+  display: block;
+  height: auto;
+}
+
+.single-product {
+  height: 400px;
+  max-height: 400px;
+}
+
+.bg-custom {
+  background-color: #4b4a4a;
+}
+
+/* Dashboard */
+
+.summary > li {
+  border: 0.1rem #c0c0c0 solid;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  flex: 1 1 10rem;
+  list-style: none;
+}
+.summary-title {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.summary-body {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.summary-title.color1 {
+  background-color: #f0e0e0;
+}
+.summary-title.color2 {
+  background-color: #e0f0e0;
+}
+.summary-title.color3 {
+  background-color: #e0e0f0;
+}
+
+/* Chatbox */
+.chatbox {
+  color: #000000;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 99;
+}
+.chatbox ul {
+  overflow-y: scroll;
+  max-height: 20rem;
+  height: 10rem;
+}
+.chatbox li {
+  margin-bottom: 1rem;
+}
+.chatbox input {
+  width: calc(100% - 9rem);
+}
+
+.chatbox-icon {
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.type-message {
+  margin-top: 1rem;
+}
+
+.btn-custom {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.btn-bg-none {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #000;
+}
+
+.support-users {
+  height: 100%;
+}
+.support-users li {
+  background-color: #f8f8f8;
+}
+.support-users button {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+}
+.support-users li {
+  margin: 0;
+  background-color: #f0f0f0;
+  font-size: 1.4rem;
+}
+
+.support-users li:hover {
+  background-color: #f0f0f0;
+}
+.support-users li.selected {
+  background-color: #c0c0c0;
+}
+
+.support-messages input {
+  width: calc(100% - 9rem);
+}
+.support-messages ul {
+  height: calc(100vh - 10rem);
+  max-height: calc(100vh - 10rem);
+  overflow-y: scroll;
+}
+.support-messages li {
+  margin-bottom: 1rem;
+}
+
+.block {
+  display: block;
+  outline: none !important;
+}
+
+.support-users span {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.support-users .offline {
+  background-color: #808080;
+}
+.support-users .online {
+  background-color: #20a020;
+}
+.support-users .unread {
+  background-color: #f02020;
+}
+
+.btn-search {
+  background-color: transparent;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.btn-search:hover {
+  background-color: transparent;
+}
+
+.text-white .dropdown-toggle {
+  color: white !important;
+}
+
+.btn-gg-login {
+  height: 48px;
+  margin-left: 10px;
+  box-shadow: none !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+  outline: none !important;
+}
+
+.btn-gg-login span {
+  color: black;
+}
+
+.ant-radio-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.ant-radio {
+  margin-right: 4px;
+}
+
+.page-active {
+  z-index: 3;
+  color: #fff;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+a.page-link {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.active {
+  font-weight: bold;
+}
